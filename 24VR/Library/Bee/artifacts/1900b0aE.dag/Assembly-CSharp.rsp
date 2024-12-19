@@ -114,6 +114,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.43f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.43f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.43f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -320,6 +321,10 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.43f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"C:/Users/m-kar/24VR/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"C:/Users/m-kar/24VR/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/SteamVR.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/SteamVR_Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/SteamVR_Input_Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/SteamVR_Windows_EditorHelper.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -341,8 +346,19 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenVR.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenVR.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/New Folder/Jsoncreation.cs"
+"Assets/New Folder/Saveload.cs"
+"Assets/New Folder/VRscript.cs"
 "Assets/New Folder/VRTest.cs"
 -langversion:9.0
 /deterministic
